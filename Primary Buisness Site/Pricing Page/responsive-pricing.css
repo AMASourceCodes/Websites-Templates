@@ -1,0 +1,258 @@
+@media only screen and (max-width: 768px) {
+      header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+      }
+
+      .navbar {
+            position: relative;
+            justify-content: space-between;
+      }
+
+      .unordered-list {
+            display: none;
+      }
+
+      .basket {
+            display: none;
+      }
+
+      .div-1 {
+            width: 100%;
+            height: 60px;
+      }
+
+      .heading-1 {
+            font-size: 16px;
+      }
+
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .blank-1 {
+            width: 20%;
+      }
+
+      .common-section {
+            padding: 3rem 15px 0;
+      }
+
+      .section-3 {
+            padding-bottom: 3rem;
+      }
+
+      .common-pricing-div {
+            width: 100%;
+            grid-template-columns: repeat(auto-fit, MinMax(300px, 1fr));
+            row-gap: 20px;
+      }
+
+      .pricing-main-div {
+            width: 100%;
+            grid-template-columns: repeat(auto-fit, MinMax(300px, 1fr));
+            justify-content: center;
+            row-gap: 20px;
+      }
+
+      .footer-head {
+            width: 100%;
+            height: 80px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 20px;
+      }
+
+      .footer-bottom {
+            padding: 0;
+            flex-direction: column;
+      }
+
+      .footer-logo,
+      .footer-links,
+      .footer-links-2 {
+            width: 100%;
+            padding: 50px 0 0;
+      }
+
+      .footer-inner-bottom {
+            width: 100%;
+            justify-content: space-between;
+      }
+
+      .footer-pages-links {
+            display: none;
+      }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+      .blank-1 {
+            width: 10%;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+}
+
+@media screen and (max-width:992px) {
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .div-1 {
+            width: 100%;
+      }
+
+
+      footer {
+            padding: 0 15px;
+      }
+
+      .footer-inner-bottom,
+      .footer-bottom {
+            width: 100%;
+      }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+      header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+      }
+
+      .navbar-div {
+            width: 100%;
+      }
+
+      .navbar {
+            position: relative;
+      }
+
+      .unordered-list {
+            display: none;
+      }
+
+      .basket {
+            display: none;
+      }
+
+      .blank-1 {
+            width: 10%;
+      }
+
+      .common-section {
+            padding: 5rem 15px 0;
+      }
+
+      .section-3 {
+            padding-bottom: 5rem;
+      }
+
+      .common-pricing-div {
+            width: 100%;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 20px;
+      }
+
+      .pricing-main-div {
+            width: 100%;
+      }
+
+      .pricing-main-heading {
+            font-size: 40px;
+      }
+
+      .footer-logo>img {
+            width: 150px;
+            height: 55px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+      .unordered-list>li {
+            padding: 3rem 1rem;
+      }
+
+      .logo,
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .basket>a {
+            font-size: 1.6rem;
+      }
+
+      .div-1 {
+            width: 100%;
+      }
+
+      .common-section {
+            padding: 7.5rem 15px 0;
+      }
+
+      .section-3 {
+            padding-bottom: 7.5rem;
+      }
+
+      .common-pricing-div {
+            width: 100%;
+            grid-template-columns: repeat(4, 1fr);
+            row-gap: 20px;
+      }
+
+      .pricing-main-div {
+            width: 100%;
+      }
+
+      footer {
+            padding: 0 15px;
+      }
+
+      .footer-logo>img {
+            width: 150px;
+            height: 55px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+      .footer-inner-bottom,
+      .footer-bottom {
+            width: 100%;
+      }
+}
+
+@media (min-width:1400px) {
+
+      .navbar-div,
+      .div-1,
+      .common-pricing-div,
+      .pricing-main-div,
+      .footer-head,
+      .footer-bottom,
+      .footer-inner-bottom {
+            width: 95%;
+      }
+}

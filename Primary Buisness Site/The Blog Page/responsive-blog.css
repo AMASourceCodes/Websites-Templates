@@ -1,0 +1,231 @@
+@media only screen and (max-width: 768px) {
+      header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+      }
+
+      .navbar {
+            position: relative;
+            justify-content: space-between;
+      }
+
+      .unordered-list {
+            display: none;
+      }
+
+      .basket {
+            display: none;
+      }
+
+      .div-1 {
+            width: 100%;
+            height: 60px;
+      }
+
+      .heading-1 {
+            font-size: 16px;
+      }
+
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .common-section {
+            padding: 3rem 15px;
+      }
+
+      .common-upper-div,
+      .common-inner-div {
+            width: 100%;
+      }
+
+      .common-paragraph {
+            margin: 20px 0;
+      }
+
+      .common-paragraph,
+      .read-more-btn {
+            width: 100%;
+      }
+
+      footer {
+            padding: 0 15px;
+      }
+
+      .footer-head {
+            width: 100%;
+            height: 60px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 20px;
+      }
+
+      .footer-bottom {
+            width: 100%;
+            padding: 0;
+            flex-direction: column;
+      }
+
+      .footer-logo,
+      .footer-links,
+      .footer-links-2 {
+            width: 100%;
+            padding: 50px 0 0;
+      }
+
+      .footer-inner-bottom {
+            width: 100%;
+            justify-content: center;
+      }
+
+      .footer-pages-links {
+            display: none;
+      }
+}
+
+@media screen and (max-width: 576px) {
+      .blank-1 {
+            width: 20%;
+      }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+      .footer-inner-bottom {
+            width: 100%;
+            justify-content: space-between;
+      }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+      header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+      }
+
+      .navbar-div,
+      .div-1 {
+            width: 100%;
+      }
+
+      .navbar {
+            position: relative;
+      }
+
+      .unordered-list {
+            display: none;
+      }
+
+      .basket {
+            display: none;
+      }
+
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .common-section {
+            padding: 5rem 15px;
+      }
+
+      .common-upper-div,
+      .common-inner-div {
+            width: 100%;
+      }
+
+      .common-paragraph,
+      .read-more-btn {
+            width: 100%;
+      }
+
+      footer {
+            padding: 0 15px;
+      }
+
+      .footer-logo>img {
+            width: 150px;
+            height: 55px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+      .footer-inner-bottom,
+      .footer-bottom {
+            width: 100%;
+      }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+      .unordered-list>li {
+            padding: 3rem 1rem;
+      }
+
+      .basket>a {
+            font-size: 1.6rem;
+      }
+
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .common-section {
+            padding: 7.5rem 15px;
+      }
+
+      .common-upper-div,
+      .common-inner-div {
+            width: 100%;
+      }
+
+      .div-1 {
+            width: 100%;
+      }
+
+      footer {
+            padding: 0 15px;
+      }
+
+      .footer-logo>img {
+            width: 150px;
+            height: 55px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+      .footer-inner-bottom,
+      .footer-bottom {
+            width: 100%;
+      }
+}
+
+@media (min-width:1400px) {
+
+      .navbar-div,
+      .div-1,
+      .common-upper-div,
+      .common-inner-div,
+      .footer-head,
+      .footer-bottom,
+      .footer-inner-bottom {
+            width: 95%;
+      }
+
+      .common-paragraph,
+      .read-more-btn {
+            width: 95%;
+      }
+}

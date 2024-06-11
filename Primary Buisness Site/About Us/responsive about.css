@@ -1,0 +1,390 @@
+@media only screen and (max-width: 768px) {
+      header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+      }
+
+      .navbar {
+            position: relative;
+      }
+
+      .unordered-list {
+            display: none;
+      }
+
+      .basket {
+            display: none;
+      }
+
+      .div-1 {
+            width: 100%;
+            height: 60px;
+      }
+
+      .heading-1 {
+            font-size: 16px;
+      }
+
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .heading-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .section-2,
+      .section-3,
+      .section-4,
+      .section-5,
+      .section-6 {
+            padding: 3rem 15px;
+            overflow-x: hidden;
+      }
+
+      .image-feature {
+            grid-template-columns: repeat(1, MinMax(330px, 1fr));
+            justify-content: center;
+            padding: 3rem 0 0;
+      }
+
+
+      .heading-2 {
+            font-size: 2.4rem;
+      }
+
+      .navbar-div,
+      .section-2-column,
+      .section-3-div {
+            width: 100%;
+      }
+
+      .column-1-div {
+            width: 100%;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            row-gap: 30px;
+      }
+
+      .testonomials-div {
+            width: 100%;
+            flex-direction: column;
+            margin-top: 3rem;
+      }
+
+      .image-feature {
+            width: 100%;
+      }
+
+
+      .column-3 {
+            padding: 10px 0;
+      }
+
+
+      .testonomials-div>.testonomial-1:nth-child(1) {
+            margin: 0 0 30px;
+      }
+
+      .testonomials-div>.testonomial-1:nth-child(2) {
+            margin: 0;
+      }
+
+      .section-6-links {
+            grid-template-columns: repeat(3, .8fr);
+            width: 100%;
+      }
+
+      .section-6-links>a>img {
+            width: 100px;
+      }
+
+      .para-7 {
+            font-size: 12px;
+      }
+
+      .section-links-images {
+            width: 100%;
+      }
+
+      footer {
+            padding: 0 15px;
+      }
+
+
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 20px;
+      }
+
+      .column-1>img {
+            width: 100%;
+      }
+
+      .para-4 {
+            font-size: 20px;
+      }
+
+      .footer-bottom {
+            width: 100%;
+            padding: 0;
+            flex-direction: column;
+      }
+
+      .footer-logo,
+      .footer-links,
+      .footer-links-2 {
+            width: 100%;
+            padding: 50px 0 0;
+      }
+
+      .footer-inner-bottom {
+            width: 100%;
+            justify-content: center;
+      }
+
+      .footer-pages-links {
+            display: none;
+      }
+}
+
+@media screen and (max-width: 576px) {
+      .testonomials-div>.testonomial-1 {
+            padding: 20px;
+      }
+
+      .heading-common {
+            font-size: 2.6rem;
+      }
+
+      .blank-1 {
+            width: 20%;
+      }
+
+      .section-4-inner {
+            padding-top: 1rem;
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .footer-head {
+            width: 100%;
+            height: 60px;
+      }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+      .heading-common {
+            font-size: 31px;
+      }
+
+      .blank-1 {
+            width: 10%;
+      }
+
+      .section-4-inner {
+            width: 95%;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+      .footer-head {
+            width: 100%;
+            height: 80px;
+      }
+
+      .footer-inner-bottom {
+            width: 100%;
+            justify-content: space-between;
+      }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+      header {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 0 15px;
+      }
+
+      .navbar-div {
+            width: 100%;
+      }
+
+      .navbar {
+            position: relative;
+      }
+
+      .unordered-list {
+            display: none;
+      }
+
+      .basket {
+            display: none;
+      }
+
+      .heading-2 {
+            font-size: 2.4rem;
+      }
+
+      .column-1-div {
+            grid-template-columns: repeat(2, minmax(340px, 1fr));
+            column-gap: 30px;
+            row-gap: 30px;
+      }
+
+      .blank-1 {
+            width: 10%;
+      }
+
+      .column-1>img {
+            width: 100%;
+      }
+
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .section-2,
+      .section-3,
+      .section-4,
+      .section-5,
+      .section-6 {
+            padding: 5rem 15px;
+      }
+
+      .section-2-column,
+      .section-3-div,
+      .div-1,
+      .testonomials-div {
+            width: 100%;
+      }
+
+      .section-4-inner {
+            width: 90%;
+      }
+
+      .testonomial-1 {
+            padding: 20px;
+      }
+
+      .testonomial-text {
+            margin-left: 15px;
+      }
+
+      .section-links-images {
+            width: 100%;
+      }
+
+      footer {
+            padding: 0 15px;
+      }
+
+      .footer-logo>img {
+            width: 150px;
+            height: 55px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+      .footer-inner-bottom,
+      .footer-bottom {
+            width: 100%;
+      }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+      .unordered-list>li {
+            padding: 3rem 1rem;
+      }
+
+      .basket>a {
+            font-size: 1.6rem;
+      }
+
+      .section-1 {
+            padding: 0 15px;
+      }
+
+      .section-2,
+      .section-3,
+      .section-4,
+      .section-5,
+      .section-6 {
+            padding: 5rem 15px;
+      }
+
+      .section-4-inner {
+            width: 95%;
+      }
+
+      .section-links-images,
+      .div-1,
+      .section-2-column,
+      .section-3-div,
+      .testonomials-div {
+            width: 100%;
+      }
+
+      .column-1-div {
+            grid-template-columns: repeat(2, minmax(440px, 1fr));
+            column-gap: 30px;
+            row-gap: 30px;
+      }
+
+      .column-1>img {
+            width: 100%;
+      }
+
+      footer {
+            padding: 0 15px;
+      }
+
+      .footer-logo>img {
+            width: 150px;
+            height: 55px;
+      }
+
+      .footer-icons .fa-brands,
+      .fa-basketball,
+      .fa-rss {
+            font-size: 30px;
+      }
+
+      .footer-inner-bottom,
+      .footer-bottom {
+            width: 100%;
+      }
+}
+
+@media (min-width: 1400px) {
+.navbar-div,
+      .div-1,
+      .section-2-column,
+      .section-3-div,
+      .section-4-inner,
+      .testonomials-div,
+      .section-links-images,
+      .footer-head,
+      .footer-bottom,
+      .footer-inner-bottom {
+            width: 95%;
+      }
+
+      .column-1>img {
+            width: 100%;
+      }
+}
