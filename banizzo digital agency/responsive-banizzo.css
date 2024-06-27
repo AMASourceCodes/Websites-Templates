@@ -1,0 +1,593 @@
+@media (min-width: 992px) and (max-width:1200px) {
+      .navbar-list {
+            gap: 15px;
+      }
+
+      .container {
+            padding: 120px 20px;
+      }
+
+      .common-container {
+            width: 100%;
+      }
+
+      .main-navbar .navbar-links .socail-media-links {
+            display: none;
+      }
+
+      .email-elem {
+            flex-direction: column;
+
+            & input[type=email] {
+                  height: 50px;
+            }
+      }
+
+      .blog-section-container {
+            gap: 20px;
+      }
+
+      .contact-main-container {
+            padding: 0 20px;
+      }
+}
+
+@media screen and (max-width: 991px) {
+      .main-navbar .navbar-links .socail-media-links {
+            display: none;
+      }
+
+      .navbar-pages {
+            position: absolute;
+            width: 100%;
+      }
+
+      .navbar {
+            width: 100%;
+            justify-content: flex-end;
+            padding-right: 20px;
+      }
+
+      .navbar-search-btn {
+            display: none;
+      }
+
+      .navbar .icon-bars {
+            display: block;
+      }
+
+      #responsive-navbar-list {
+            position: absolute;
+            display: block;
+            right: 0;
+            top: 0;
+            background: #01001e;
+            padding: 30px;
+            height: auto;
+            padding: 0;
+            width: 0;
+            overflow: hidden;
+            transition: .3s;
+
+            & .cross {
+                  display: block;
+                  padding: 0 0 15px;
+            }
+
+            & li {
+                  padding: 16px 100px 16px 16px;
+                  background-color: #060024;
+                  border-top: 1px solid #343434;
+            }
+
+            & .other-items {
+                  display: block;
+            }
+
+            & .other-pages {
+                  display: none;
+            }
+
+            & .responsive-list {
+                  align-items: flex-start;
+            }
+
+            & .cross {
+                  & .cross-btn {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        padding: 15px 18px;
+                        background: transparent;
+                        border: 1px solid #343434;
+                        border-radius: 50%;
+
+                        & .fa-solid {
+                              font-size: 18px;
+                              color: white;
+                        }
+                  }
+            }
+      }
+
+      .header-main-section {
+            width: 100%;
+            padding: 30px 20px;
+      }
+
+      .common-container {
+            width: 100%;
+      }
+
+      .experience-heading {
+            font-size: 32px;
+
+      }
+
+      .large-heading {
+            font-size: 28px;
+      }
+
+      .years-heading {
+            font-size: 200px;
+      }
+
+      /* Blog */
+      .blog-section-container {
+            flex-direction: column;
+            gap: 30px;
+      }
+
+      .blog-categories-sec {
+            width: 100%;
+      }
+
+      .communication {
+            gap: 20px;
+      }
+
+      .testimonial-column {
+            padding: 20px;
+      }
+
+      .contact-main-container {
+            padding: 0 20px;
+      }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+      .header-main-section {
+            padding: 90px 20px;
+      }
+
+      .extra-large-heading {
+            font-size: 80px;
+      }
+
+      .banizzo-services-container {
+            top: -40px;
+            width: 95%;
+      }
+
+      .banizzo-services {
+            padding: 30px 20px;
+      }
+
+      .about-banizzo-services-sec,
+      .experience-section {
+            padding: 90px 20px;
+      }
+
+      .contact-form-block {
+            padding: 90px 0;
+      }
+
+      .experience-container {
+            column-gap: 30px;
+      }
+
+      .banizzo-concept-div {
+            flex-direction: column;
+            gap: 20px;
+      }
+
+      .concept-div {
+            padding: 0;
+            justify-content: flex-start;
+            align-items: center;
+      }
+
+      .services-image {
+            margin-bottom: 10px;
+      }
+
+      .small-heading {
+            font-size: 16px;
+
+            &>br {
+                  display: none;
+            }
+      }
+
+      .services-video-sec,
+      .container {
+            padding: 90px 20px;
+      }
+
+      .team-section {
+            padding: 0 20px;
+      }
+
+      .services-details {
+            grid-template-columns: repeat(2, 1fr);
+      }
+
+      .team-solutions {
+            padding: 90px 0;
+      }
+
+      .leader-team-columns {
+            grid-template-columns: repeat(2, 1fr);
+      }
+
+      .counter-number {
+            font-size: 32px;
+      }
+
+      .low-counter {
+            font-size: 14px;
+      }
+
+      .testinomial-image-div-2 {
+            right: 10%;
+      }
+
+      .testinomial-image-div-1 {
+            left: 10%;
+      }
+
+      .pricing-column {
+            & .pricing-list .price-unordered-list {
+                  & li {
+                        font-size: 14px;
+                  }
+            }
+      }
+
+      .choice-para {
+            padding: 15px 20px;
+      }
+
+      .asking-heading {
+            width: 100%;
+      }
+
+      .blog-main-heading>.medium-heading {
+            font-size: 18px;
+      }
+
+      .blog-text {
+            padding: 0 10px 30px;
+      }
+
+      .home-image-carousel {
+            padding-bottom: 0;
+      }
+
+      .news-section {
+            bottom: -90px;
+      }
+
+      .news {
+            padding: 40px;
+      }
+
+      .email-elem {
+            width: 50%;
+      }
+}
+
+@media only screen and (max-width: 768px) {
+      .header-main-section {
+            padding: 50px 20px;
+      }
+
+
+
+      .blog-categories-sec {
+            width: 100%;
+      }
+
+      .logo>a>img {
+            width: 120px;
+      }
+
+      .extra-large-heading {
+            font-size: 48px;
+      }
+
+      .text-white {
+            width: 100%;
+      }
+
+      .container {
+            padding: 50px 20px;
+      }
+
+      .abou-team-image {
+            padding-bottom: 50px;
+      }
+
+      .banizzo-services-container {
+            width: 95%;
+            grid-template-columns: repeat(1, 1fr);
+            position: relative;
+            left: 0;
+            translate: 0;
+            top: -35px;
+      }
+
+      .banizzo-services {
+            padding: 20px;
+      }
+
+      .services-video-sec,
+      .about-banizzo-services-sec {
+            padding: 50px 20px;
+      }
+
+      .contact-form-block {
+            padding: 50px 0;
+      }
+
+      .experience-section {
+            flex-direction: column;
+            padding: 50px 20px;
+      }
+
+      .experience-container,
+      .team-container {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 0;
+      }
+
+      .experience-text {
+            padding: 0 0 20px;
+      }
+
+      .concept-div {
+            padding: 20px 0;
+      }
+
+      .services-details {
+            grid-template-columns: repeat(1, 1fr);
+      }
+
+      .services {
+            padding: 20px;
+      }
+
+      .team-section {
+            padding: 0 20px;
+      }
+
+      .team-solutions {
+            padding: 50px 0;
+      }
+
+      .leader-team-columns {
+            grid-template-columns: repeat(1, 1fr);
+      }
+
+      .team-video {
+            & .video-banner {
+                  & .video-widget {
+                        padding: 20px 23px;
+                  }
+            }
+      }
+
+      .team-column {
+            & .column-upper {
+                  & img {
+                        height: auto;
+                  }
+            }
+      }
+
+      .team-video {
+            & .video-banner {
+                  height: 350px;
+            }
+      }
+
+      .counter-container {
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 50px;
+      }
+
+      .counter-number {
+            font-size: 40px;
+      }
+
+      .testimonial-image-div-2,
+      .testimonial-image-div-1 {
+            position: relative;
+      }
+
+      .testimonial-image-div-1 {
+            left: 10%;
+      }
+
+      .testimonial-image-div-2 {
+            right: 10%;
+      }
+
+      :is(.testimonial-image-div-2, .testimonial-image-div-1) :is(.testimonial-image)>img {
+
+            width: 100px;
+      }
+
+      .testimonial-para {
+            width: 100%;
+      }
+
+      .main-pricing-columns {
+            grid-template-columns: repeat(1, 1fr);
+            row-gap: 50px;
+      }
+
+      .pricing-upper-elements,
+      .services-video-para {
+            width: 100%;
+      }
+
+      .asking-heading {
+            width: 100%;
+            font-size: 30px;
+      }
+
+      .center-heading-large {
+            padding-bottom: 30px;
+      }
+
+      .blog-column-container {
+            grid-template-columns: repeat(1, 1fr);
+      }
+
+      .blog-text {
+            padding: 0 20px 30px;
+      }
+
+      .news-section {
+            position: relative;
+            bottom: -100px;
+      }
+
+      .image-carousel {
+            padding: 0;
+      }
+
+      .news {
+            padding: 20px;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+      }
+
+      .footer-info {
+            grid-template-columns: repeat(1, 1fr);
+            gap: 20px;
+      }
+
+      /* Services video section */
+      .services-video-upper-element {
+            gap: 0px;
+            flex-direction: column;
+            margin-bottom: 20px;
+      }
+
+      .communication {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+      }
+
+      .contact-container {
+            grid-template-columns: repeat(1, 1fr);
+      }
+
+      .location-map-block {
+            padding-bottom: 50px;
+      }
+}
+
+@media (min-width: 250px) and (max-width: 576px) {
+      .header-main-logo {
+            justify-content: flex-start;
+      }
+
+      .main-navbar .navbar-links :is(.navbar-email, .location, .socail-media-links) {
+            display: none;
+      }
+
+      .logo {
+            padding-left: 20px;
+      }
+
+      .logo>a>img {
+            width: 100px;
+      }
+
+      .banizzo-concept-div {
+            flex-direction: column;
+      }
+
+      .concept-div {
+            justify-content: flex-start;
+      }
+
+      .works-buttons {
+            flex-direction: column;
+            align-items: center;
+      }
+
+      .news {
+            width: 95%;
+            display: none;
+      }
+
+      .email-div {
+            display: none;
+      }
+
+      /* Blog */
+      .email-search-element,
+      .categories,
+      .recent-post-element,
+      .tags,
+      .advertisement {
+            padding: 30px 10px;
+      }
+
+      .email-search-element {
+            padding: 30px 0;
+      }
+
+      .images>img {
+            padding: 0px 10px;
+            height: 30px;
+            width: 100px;
+      }
+
+      .testimonial-column-icon {
+            padding: 20px;
+
+            &>.fa-solid,
+            .fa-regular {
+                  font-size: 20px;
+            }
+      }
+
+      .testimonial-column:nth-child(2),
+      .testimonial-column:nth-child(3) {
+            &>.testimonial-column-icon {
+                  padding: 20px 23px;
+            }
+      }
+
+      .communication {
+            grid-template-columns: repeat(1, 1fr);
+      }
+
+      .contact-form-heading {
+            padding-bottom: 15px;
+      }
+
+      .form-inner-elements {
+            & .form-text {
+                  padding: 10px 15px;
+            }
+      }
+      .home-footer-info{
+            padding: 0;
+      }
+}
